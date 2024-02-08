@@ -4,7 +4,7 @@
     left: 100px;
     width: 391px;
     height: 220px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     background-image: url(ww2_asset2.jpg);
     filter: grayscale();
     background-size: contain;
