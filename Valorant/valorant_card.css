@@ -1,0 +1,52 @@
+.valorant_card {
+    position: relative;
+    top:100px;
+    left: 100px;
+    width: 390px;
+    height: 220px;
+    background-image: url(valorant_asset1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    filter: grayscale();
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  
+  .valorant_card:hover {
+    transform: scale(1.05);
+    filter: grayscale(0);
+    box-shadow: 8px 8px 32px rgba(0, 0, 0);
+  }
+  
+  .valorant_card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: transparent;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .valorant_card:hover .valorant_card__content {
+    transform: rotateX(0deg);
+  }
+  
+.valorant_card_logo{
+    position: relative;
+    top: 80px;
+    left: 240px;
+    height: 70px;
+    width: 100px;
+    /* border: 3px solid; */
+}
