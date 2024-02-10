@@ -45,7 +45,7 @@
   transform: rotateX(0deg);
 }
 
-.gta_card__description {
+/* .gta_card__description {
   position: relative;
   top: 30px;
   margin: 10px 0 0;
@@ -53,6 +53,6 @@
   font-size: 14px;
   color: #ffffff;
   line-height: 1.4;
-}
+} */
 
 /*------------------------------------------gta card bottom-----------------------------------------------*/
