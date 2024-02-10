@@ -22,7 +22,7 @@
   
   .deceit_card:hover {
     transform: scale(1.05);
-    box-shadow: 6px 8px 26px rgb(0, 0, 0);
+    box-shadow: 8px 8px 32px rgb(0, 0, 0);
     filter: grayscale(0);
   }
   #deceit_card_logo{
@@ -50,7 +50,7 @@
     transform: rotateX(0deg);
   }
 
-  .deceit_card__description {
+  /* .deceit_card__description {
     position: relative;
     top: 20px;
     height: 60px;
@@ -60,4 +60,4 @@
     color: #c9b0b0;
     line-height: 1.4;
   }
-  
+   */
