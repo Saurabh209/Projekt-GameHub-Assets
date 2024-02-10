@@ -24,7 +24,7 @@
   .apex_card:hover {
     transform: scale(1.05);
     filter: grayscale(0%);
-    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.655);
+    box-shadow: 8px 8px 32px rgb(0, 0, 0);
   }
 #apex_logo{
     margin-left: 40px;
@@ -46,11 +46,11 @@
   .apex_card:hover .apex_card__content {
     transform: rotateX(0deg);
   }
-  .apex_card__description {
+  /* .apex_card__description {
     font-family: Georgia, Helvetica, Arial, Geneva, sans-serif;
     font-size: 14px;
     color: #ffffff;
     line-height: 1.4;
-  }
+  } */
 
 /*-----------------------------------------Apex legend card bottom--------------------------------------------------------------*/
